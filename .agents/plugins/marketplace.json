@@ -1,0 +1,20 @@
+{
+  "name": "EAB Agent",
+  "interface": {
+    "displayName": "EAB Agent"
+  },
+  "plugins": [
+    {
+      "name": "gen-eve-plugin",
+      "source": {
+        "source": "local",
+        "path": "./plugins/gen-eve-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

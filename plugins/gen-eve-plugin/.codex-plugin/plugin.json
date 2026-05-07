@@ -1,0 +1,44 @@
+{
+  "name": "gen-eve-plugin",
+  "version": "0.1.0",
+  "description": "Generate CircuitPython EVE/BT817 demo applications for the IDM2040 board.",
+  "author": {
+    "name": "EAB Team at Bridgetek",
+    "email": "noreply@example.com",
+    "url": "https://github.com/Bridgetek/IDM2040-7A-EW2022"
+  },
+  "homepage": "https://github.com/Bridgetek/IDM2040-7A-EW2022",
+  "repository": "https://github.com/Bridgetek/IDM2040-7A-EW2022",
+  "license": "MIT",
+  "keywords": [
+    "eve",
+    "bt817",
+    "idm2040",
+    "circuitpython",
+    "embedded-display"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Generate EVE Plugin",
+    "shortDescription": "Create IDM2040 EVE demo apps and supporting assets.",
+    "longDescription": "A local Codex plugin for generating and maintaining CircuitPython applications for the IDM2040 board, Bridgetek EVE displays, BT817 graphics, touch UI flows, media playback, and board peripheral demos.",
+    "developerName": "Truong Ly",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write",
+      "Code Generation"
+    ],
+    "websiteURL": "https://github.com/Bridgetek/EW2022",
+    "privacyPolicyURL": "https://github.com/Bridgetek/EW2022",
+    "termsOfServiceURL": "https://github.com/Bridgetek/EW2022",
+    "defaultPrompt": [
+      "Generate an IDM2040 EVE demo app.",
+      "Add a BT817 touch UI screen.",
+      "Create an EVE media playback demo."
+    ],
+    "brandColor": "#0F766E",
+    "composerIcon": "./assets/brt3.ico",
+    "logo": "./assets/brt3.ico"
+  }
+}

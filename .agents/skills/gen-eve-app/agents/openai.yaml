@@ -1,0 +1,4 @@
+interface:
+  display_name: "Generate EVE App"
+  short_description: "Create BT817/EVE demo applications."
+  default_prompt: "Generate an EVE/BT817 application for this board."
